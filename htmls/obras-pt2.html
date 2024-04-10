@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <title>Arte KarenHerrera - Todas las obras</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="author" content="Dajer">
+      <meta name="keywords" content="Arte, cuadros, tatuajes, karen herrera">
+      <meta property="og:title" content="ArteHerrera">
+      <meta property="og:description" content="ArteHerrera, donde muestro mis obras y el amor al Arte.">
+      <link rel="shortcut icon" type="image/x-icon" href="../img/img-galeria/logo.png">
+      <link rel="stylesheet" href="../css/boot.css">
+      <link rel="stylesheet" href="../style.css">
+      <script src="https://kit.fontawesome.com/4653142e0e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header id="inicio">
+   <nav class="navbar navbar-expand-lg navbar-color fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand logo" href="#inicio"><img src="../img/img-galeria/logomejorada1-removebg-preview.png" alt="logo karen herrera"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link mx-2" aria-current="page" href="../index.html">Inicio</a>
+        </li>
+        <li class="nav-item mx-2">
+          <a class="nav-link" href="desea.html">¿Deseas colaborar?</a>
+        </li>
+        <li class="nav-item mx-2">
+          <a class="nav-link" href="obras.html">Volver</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link mx-2 me-4 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Obras
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="htmls/abstractos.html">Abstractos</a></li>
+            <li><a class="dropdown-item" href="htmls/retratos.html">retratos</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="htmls/obras.html">todos</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+   <div class="titulo-header">
+  <div class="row">
+      <div class="col parrafo-header">
+          <h1><span>Todas</span> las Obras</h1>
+          <p>¡en esta sección pueden ver todas mis obras!</p>
+      </div>
+  </div>
+  </div>
+  </header>
+  
+   <div class="ful-img" id="fulImgBox">
+        <img src="../img/img-galeria/citrico.jpg" id="fulImg" alt="">
+        <span onclick="closeImg()">X</span>
+       </div>
+   
+   <hr style="width: 50%; margin: 0 auto;">
+
+<!-- Galería-->
+  <div class="container contenedor-destacados">
+      
+        
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+                <div class="card card-destacados" style="width: 16rem; ">
+                   <img src="../img/img-galeria/templo-historico-.png" onclick="openFulImg(this.src)" loading="lazy" class="card-img-top destacados-img " alt="caballo blanco">
+                       <div class="card-body">
+                       <p class="card-text"> <span class="fs-6 fw-semibold">Templo Histórico</span>
+                       <br></p>
+                  </div>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-center">
+              <div class="card card-destacados" style="width: 16rem;">
+                   <img src="../img/img-galeria/cuadroblue-removebg-preview.png" onclick="openFulImg(this.src)" class="card-img-top destacados-img" loading="lazy" alt="Abstracto azul">
+                       <div class="card-body">
+                       <p class="card-text"><span class="fs-6 fw-semibold">Abstracto Azul</span> <br></p>
+                  </div>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-center">
+                 <div class="card card-destacados" style="width: 16rem;">
+                   <img src="../img/img-galeria/virgen-removebg.png" onclick="openFulImg(this.src)" loading="lazy" class="card-img-top destacados-img" alt="Virgen de Guadalupe">
+                       <div class="card-body">
+                       <p class="card-text">
+                       <span class="fs-6 fw-semibold">Rose</span> <br></p>
+                  </div>
+                </div>
+            </div>
+            
+            
+        </div>
+        <div class="row">
+            <div class="col d-flex justify-content-center my-5">
+            <nav aria-label="...">
+  <ul class="pagination">
+    <li class="page-item">
+      <a class="page-link" href="obras.html">Anterior</a>
+    </li>
+    <li class="page-item " aria-current="page"><a class="page-link" href="obras.html">1</a></li>
+    <li class="page-item active">
+      <a class="page-link" href="#">2</a>
+    </li>
+    <li class="page-item">
+      <a class="page-link disabled" href="#">Next</a>
+    </li>
+  </ul>
+</nav>
+            </div>
+        </div>
+        
+    </div>
+    
+    
+     <!-- sitio footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h4><span>Noso</span>tros</h4>
+            <p class="text-justify">bienvenidos a <i>ArteHerrera</i>. puedes adquirir mis productos mediante un mensaje directo a mis redes sociales.</p>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h4>Obras Categorias</h4>
+            <ul class="footer-links">
+              <li><a href="htmls/obras.html">Todos</a></li>
+              <li><a href="htmls/abstractos.html">Abstractos</a></li>
+              <li><a href="htmls/retratos.html">Retratos</a></li>
+              <li><a href="htmls/frutas.html">Frutas</a></li>
+              <li><a href="#">Animales y paisajes</a></li>
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h4>Enlaces</h4>
+            <ul class="footer-links">
+              <li><a href="#inicio">Inicio</a></li>
+              <li><a href="#acerca">Acerca de mi</a></li>
+              <li><a href="htmls/obras.html">Mis obras</a></li>
+              <li><a href="#">políticas y privacidad</a></li>
+              <li><a href="#">¿deseas colaborar?</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2024 All Rights Reserved by 
+         <span>dajer</span>
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="https://www.facebook.com/people/Karen-Herrera-Navarro/100015579939493/" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="dribbble" href="https://www.instagram.com/makaren75/" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram"></i></a></li>  
+            </ul>
+          </div>
+        </div>
+      </div>
+</footer> 
+     <script src="../js/obras.js"></script>
+    <script src="../js/popper.js"></script>
+    <script src="../js/boot.js"></script>
+</body>
+</html>

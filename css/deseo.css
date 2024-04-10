@@ -1,0 +1,28 @@
+.contenedor-deseas{
+    width: 100%;
+     background-color: rgba(237, 237, 235, 0.5);
+    padding: 30px 80px;
+}
+
+.lista{
+    padding: 30px 
+}
+
+.lista p{
+   font-size: 16px;
+}
+
+.lista span{
+    font-size: 24px;
+    font-weight: 600
+}
+
+@media(max-width: 568px){
+    .contenedor-deseas{
+    padding: 20px 20px;
+}
+    .lista{
+    padding: 10px ;
+}
+
+}
