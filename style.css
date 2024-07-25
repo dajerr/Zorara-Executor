@@ -45,22 +45,21 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Space Mono', monospace;
-    text-decoration: none;
-    list-style: none;
-    background-color: #dee9e3;
+    background-color: #e0e0e0;
 }
 header{
     background-image: linear-gradient( 
      rgba(0,0,0,0.2),
      rgba(0,0,0,0.2)),
     url(img/fondo-blanco-abstracto.jpg);
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .navbar-color{
-    background-color: rgba(84, 120, 105, 0.9); /* Color #547869 con opacidad del 30% */
+    background-color: #547869e6; /* Color #547869 con opacidad del 30% */
 }
 
 
@@ -91,7 +90,7 @@ header{
     transform: scale(1.001);
 }
 .titulo-header{
-    height: 70vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -122,8 +121,6 @@ header{
 
 .destacos-contenedor{
     padding: 0 30px 50px 30px;
-    background-color: rgba(237, 237, 235, 0.5); /* Color #ededeb con opacidad del 50% */
-
 }
 
 .destacados-texto h2{
@@ -147,6 +144,7 @@ header{
 }
 
 .card-destacados{
+    padding: 3px 6px;
     background-color: #95b3a6;
     color: #000;
     margin-bottom: 30px;
@@ -174,6 +172,13 @@ header{
 }
 
 .card-destacados span{
+    border: 1px solid;
+    border-color: #26272b;
+    position: relative;
+    right: 7px;
+    background-color: #68aa8c;
+    border-radius: 5px;
+    padding: 2px 4px;
     color: aliceblue;
 }
 
@@ -188,17 +193,20 @@ header{
 }
 
 .destacados-boton button:hover{
-    background-color: #95b3a6;
+    background-color: #68aa8c;
 }
 /*ACERCA DE MI*/
+.bg-about{
+  background-color: #547869;
+}
 
 .acerca-contenedor{
     padding: 0 30px 50px 30px;
-     background-color: rgba(237, 237, 235, 0.5);
-;}
+}
 
 
 .acerca-texto h2{
+    color: #fff;
     font-weight: 600;
     font-size: 34px;
     padding: 20px;
@@ -225,22 +233,28 @@ header{
 }
 
 .acerca-texto p{
+    color: #c2c2c2;
     font-size: 16px;
     margin: 20px 0 20px 0;
     padding: 0 20px 0 20px;
 }
 
 .acerca-texto span{
-    color: #547869;
+    color: #d8d8d8;
 }
 
 
 .acerca-contenedor h3{
     font-weight: 600;
+    color: #fafafa;
 }
 
 .acerca-contenedor span{
-    color: #547869;
+    color: #eeeeee;
+}
+
+.acerca-contenedor p{
+  color: #cfcfcf;
 }
 
 
@@ -248,8 +262,7 @@ header{
 /*Tattoo*/
 
 .contenedor-tattoo{
-     padding: 35px 30px 50px 30px;
-    background-color: rgba(237, 237, 235, 0.5); /* Color #ededeb con opacidad del 50% */
+    padding: 35px 30px 50px 30px;
 }
 
 
@@ -298,22 +311,28 @@ header{
     cursor: pointer;
 }
 
-.custom-btn {
-    background-color: #547869; 
-    color: #fff; 
-    transition: .5s;
+.boton-tattoo{
+  position: relative;
+  top: 30px;
+  text-decoration: none;
+  border-radius: 8px;
+  text-align: center;
+  width: 240px;
+  margin: 0 auto;
+  padding: 4px 8px;
+  background-color: #069454;
+  color: #000;
+  transition: all .5s ease-in-out;
 }
+.boton-tattoo:hover{
+  background-color: #36b67c;
+  color: #000;
 
-.custom-btn:hover{
-    background-color: #54785b;
-    color: #fff;
 }
-
 /*formulario*/
 
 .contenedor-formulario{
      padding: 30px 30px 50px 30px;
-    background-color: rgba(237, 237, 235, 0.5); /* Color #ededeb con opacidad del 50% */
 }
 .form-horizontal { 
     display: flex;
